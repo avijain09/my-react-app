@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
+    color: #fff;
     margin-right: 5rem;
 }
 
@@ -27,14 +27,12 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
-
     margin-top: 1.5rem;
 }
 
 .intelli-hire__header-content__input {
     width: 100%;
     margin: 2rem 0 1rem;
-
     display: flex;
     flex-direction: row;
 }
@@ -52,7 +50,10 @@
     padding: 0 1rem;
     outline: none;
     color: #fff;
-
+    background: #333;
+    /* Darker background for input */
+    border: 2px solid #333;
+    color: #fff;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -66,12 +67,13 @@
     font-size: 20px;
     line-height: 28px;
     background: #FF4820;
+    /* Keep button color or adjust as needed */
     border: 2px solid #FF4820;
+    color: #fff;
     padding: 0 1rem;
     color: #fff;
     cursor: pointer;
     outline: none;
-
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -82,7 +84,6 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-
     margin-top: 2rem;
 }
 
@@ -113,7 +114,7 @@
     height: 100%;
 }
 
-.gradient__bg_header{
+.gradient__bg_header {
     background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgb(22 31 46) 25%);
     position: relative;
 }
@@ -122,7 +123,6 @@
     .intelli-hire__header {
         flex-direction: column;
     }
-
     .intelli-hire__header-content {
         margin: 0 0 3rem;
     }
@@ -133,26 +133,21 @@
         font-size: 48px;
         line-height: 60px;
     }
-
     .intelli-hire__header-content p {
         font-size: 16px;
         line-height: 24px;
     }
-    
     .intelli-hire__header-content__people {
         flex-direction: column;
     }
-
     .intelli-hire__header-content__people p {
         margin: 0;
     }
-
     .intelli-hire__header-content__input input,
     .intelli-hire__header-content__input button {
         font-size: 16px;
         line-height: 24px;
     }
-
 }
 
 @media screen and (max-width: 490px) {
@@ -160,12 +155,10 @@
         font-size: 36px;
         line-height: 48px;
     }
-
     .intelli-hire__header-content p {
         font-size: 14px;
         line-height: 24px;
     }
-
     .intelli-hire__header-content__input input,
     .intelli-hire__header-content__input button {
         font-size: 12px;

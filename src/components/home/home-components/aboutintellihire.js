@@ -1,21 +1,38 @@
-import React from 'react';
-import Feature from '../utils/feature';
-import './aboutintellihire.css';
+import React from "react";
+import Feature from "../utils/feature";
+import "./aboutintellihire.css";
 
 const AboutIntellihire = () => (
   <div className="intelli-hire__whatgpt3 section__margin" id="abt">
     <div className="intelli-hire__whatgpt3-feature">
-    <Feature title="What is Intelli Hire" text="Intelli Hire is an innovative AI-powered platform that revolutionizes the hiring process. It harnesses cutting-edge algorithms to meticulously analyze candidate's resumes, meticulously assessing their projects, skills, work experience, cultural compatibility, and aptitude." />    </div>
+      <Feature
+        title="What is VirtuHire AI"
+        text="VirtuHire AI is a groundbreaking platform that transforms the hiring landscape with advanced AI technologies. Employing state-of-the-art algorithms, it thoroughly examines applicants' CVs, intricately evaluates their projects, expertise, professional background, cultural fit, and aptitude. This innovative system redefines the recruitment process by leveraging cutting-edge technology for comprehensive candidate analysis."
+      />{" "}
+    </div>{" "}
     <div className="intelli-hire__whatgpt3-heading">
-    <h1 className="gradient__text">Unlock the Potential of Intelli Hire</h1>
-      <p>Discover the Possibilities</p>
-    </div>
+      <h1 className="gradient__text">
+        {" "}
+        Unleash the Capabilities of VirtuHire AI - Maximize the Potential of
+        VirtuHire AI
+      </h1>{" "}
+      <p> Discover the Possibilities </p>{" "}
+    </div>{" "}
     <div className="intelli-hire__whatgpt3-container">
-    <Feature title="Efficient Hiring" text="Say goodbye to manual screening and save time. Intelli Hire makes the process 10x faster and smoother by leveraging AI to evaluate candidate resumes and provide instant results." />
-      <Feature title="Customizable Evaluation" text="Tailor the evaluation criteria to your needs. Intelli Hire's dashboard allows recruiters to modify parameters and weighting factors, giving you full control over the hiring process." />
-      <Feature title="Real-Time Insights" text="Stay informed with real-time data. Intelli Hire provides recruiters with a dashboard to track the number of candidates who have applied for a job and how many have been selected for further interview rounds." />
-    </div>
+      <Feature
+        title="Streamline the Recruitment Process"
+        text="Bid farewell to manual screening, saving valuable time. VirtuHire AI accelerates the process by 10 times, employing AI to assess candidate resumes and deliver instantaneous results."
+      />
+      <Feature
+        title="Tailor-Made Assessment"
+        text="Customize the evaluation criteria according to your requirements. VirtuHire AI's user-friendly dashboard empowers recruiters to adjust parameters and weighting factors, granting complete command over the hiring journey."
+      />
+      <Feature
+        title="Instantaneous Analytics"
+        text="Stay abreast of developments through real-time data. VirtuHire AI furnishes recruiters with a dashboard for monitoring the count of job applicants and the number progressing to subsequent interview stages, ensuring you stay well-informed."
+      />
+    </div>{" "}
   </div>
 );
 
-export default AboutIntellihire ;
+export default AboutIntellihire;

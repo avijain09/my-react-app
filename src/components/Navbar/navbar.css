@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 1rem 4rem;
+    background-color: #000;
+    /* Black background for the navbar */
 }
 
 .intelli-hire__navbar-links {
@@ -37,12 +38,12 @@
 .intelli-hire__navbar-sign p,
 .intelli-hire__navbar-menu_container p {
     color: #fff;
+    /* White text for contrast */
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -64,7 +65,6 @@
 
 .intelli-hire__navbar-menu {
     margin-left: 1rem;
-
     display: none;
     position: relative;
 }
@@ -78,7 +78,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
     text-align: end;
     background: var(--color-footer);
     padding: 1rem;
@@ -88,7 +87,7 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
 
@@ -104,7 +103,6 @@
     .intelli-hire__navbar-links_container {
         display: none;
     }
-
     .intelli-hire__navbar-menu {
         display: flex;
     }
@@ -120,15 +118,12 @@
     .intelli-hire__navbar {
         padding: 10px;
     }
-
     .intelli-hire__navbar-sign {
         display: none;
     }
-
     .intelli-hire__navbar-menu_container {
         top: 20px;
     }
-
     .intelli-hire__navbar-menu_container-links-sign {
         display: block;
     }
