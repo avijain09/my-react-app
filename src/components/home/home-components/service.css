@@ -1,4 +1,4 @@
-.intelli-hire__features {
+.virtu-hire__features {
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     /* Additional styles if needed */
 }
 
-.intelli-hire__features-heading {
+.virtu-hire__features-heading {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -18,7 +18,7 @@
     /* White text for contrast */
 }
 
-.intelli-hire__features-heading h1 {
+.virtu-hire__features-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
@@ -26,7 +26,7 @@
     /* Additional color styles if needed */
 }
 
-.intelli-hire__features-heading p {
+.virtu-hire__features-heading p {
     color: #ccc;
     /* Lighter color for subtext */
     font-size: 16px;
@@ -36,7 +36,7 @@
     margin-top: 2rem;
 }
 
-.intelli-hire__features-container {
+.virtu-hire__features-container {
     flex: 1.5;
     display: flex;
     justify-content: flex-start;
@@ -49,16 +49,16 @@
 /* Media queries */
 
 @media screen and (max-width: 990px) {
-    .intelli-hire__features {
+    .virtu-hire__features {
         flex-direction: column;
     }
-    .intelli-hire__features-heading {
+    .virtu-hire__features-heading {
         margin: 0 0 2rem 0;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .intelli-hire__features-heading h1 {
+    .virtu-hire__features-heading h1 {
         font-size: 28px;
         line-height: 38px;
     }

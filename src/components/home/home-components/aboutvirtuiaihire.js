@@ -1,24 +1,24 @@
 import React from "react";
 import Feature from "../utils/feature";
-import "./aboutintellihire.css";
+import "./aboutvirtuiaihire.css";
 
-const AboutIntellihire = () => (
-  <div className="intelli-hire__whatgpt3 section__margin" id="abt">
-    <div className="intelli-hire__whatgpt3-feature">
+const AboutVirtuiaihire = () => (
+  <div className="virtu-hire__whatgpt3 section__margin" id="abt">
+    <div className="virtu-hire__whatgpt3-feature">
       <Feature
         title="What is VirtuHire AI"
         text="VirtuHire AI is a groundbreaking platform that transforms the hiring landscape with advanced AI technologies. Employing state-of-the-art algorithms, it thoroughly examines applicants' CVs, intricately evaluates their projects, expertise, professional background, cultural fit, and aptitude. This innovative system redefines the recruitment process by leveraging cutting-edge technology for comprehensive candidate analysis."
       />{" "}
     </div>{" "}
-    <div className="intelli-hire__whatgpt3-heading">
+    <div className="virtu-hire__whatgpt3-heading">
       <h1 className="gradient__text">
         {" "}
         Unleash the Capabilities of VirtuHire AI - Maximize the Potential of
-        VirtuHire AI
+        VirtuHire AI{" "}
       </h1>{" "}
       <p> Discover the Possibilities </p>{" "}
     </div>{" "}
-    <div className="intelli-hire__whatgpt3-container">
+    <div className="virtu-hire__whatgpt3-container">
       <Feature
         title="Streamline the Recruitment Process"
         text="Bid farewell to manual screening, saving valuable time. VirtuHire AI accelerates the process by 10 times, employing AI to assess candidate resumes and deliver instantaneous results."
@@ -35,4 +35,4 @@ const AboutIntellihire = () => (
   </div>
 );
 
-export default AboutIntellihire;
+export default AboutVirtuiaihire;

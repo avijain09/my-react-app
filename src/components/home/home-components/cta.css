@@ -1,4 +1,4 @@
-.intelli-hire__cta {
+.virtu-hire__cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +12,7 @@
     /* White text for contrast */
 }
 
-.intelli-hire__cta-content {
+.virtu-hire__cta-content {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -21,19 +21,19 @@
 
 /* Keep font styles the same for consistency */
 
-.intelli-hire__cta-content p,
-.intelli-hire__cta-content h3 {
+.virtu-hire__cta-content p,
+.virtu-hire__cta-content h3 {
     font-family: var(--font-family);
 }
 
-.intelli-hire__cta-btn {
+.virtu-hire__cta-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
 }
 
-.intelli-hire__cta-btn button {
+.virtu-hire__cta-btn button {
     background: #fff;
     /* Light background for the button */
     color: #000;
@@ -52,24 +52,24 @@
 /* Update media queries for responsive design */
 
 @media screen and (max-width: 650px) {
-    .intelli-hire__cta {
+    .virtu-hire__cta {
         flex-direction: column;
     }
-    .intelli-hire__cta-btn {
+    .virtu-hire__cta-btn {
         margin: 2rem 0 0;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .intelli-hire__cta {
+    .virtu-hire__cta {
         flex-direction: column;
         margin: 4rem 2rem;
     }
-    .intelli-hire__cta-content h3 {
+    .virtu-hire__cta-content h3 {
         font-size: 18px;
         line-height: 32px;
     }
-    .intelli-hire__cta-btn button {
+    .virtu-hire__cta-btn button {
         font-size: 14px;
         line-height: 28px;
     }
